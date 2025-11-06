@@ -1,7 +1,9 @@
+nombre = 'Pedro'
 
-def funcion(nombre):
-    return nombre
+def mostrar_nombre(nombre):
+    print(f'Hola {nombre}')
 
-empleado = funcion("Juan")
+mostrar_nombre(nombre)
 
-print(empleado)
+print(nombre.upper())
+print(nombre.title())
