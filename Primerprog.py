@@ -1,22 +1,11 @@
-print(4)
-print(5.4)
+def suma(a = 0, b = 0):
+    print(a + b)
 
-print(2 + 8)
-print(12 - 4)
-print(4 * 3)
-print(8 / 2)
+suma( 2 , 3)
+suma( 8 , 4)
+suma( 4 , 7)
 
-print(2 ** 3)
+def resta(a,b):
+    print(a - b)
 
-print((2 + 8) * 7)
-
-numero = 40
-print(numero)
-numero += 1
-print(numero)
-numero += 4
-print(numero)
-
-
-
-
+resta(5, 2)
