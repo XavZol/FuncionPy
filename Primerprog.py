@@ -24,3 +24,24 @@ if usuario_autenticado:
     print('Acceso al sistema')
 else:
     print('Debes iniciar sesion')
+    
+#Evaluar un elemento de una lista
+lenguajes = ['Python', 'Kotlin', 'Java', 'JavaScript']
+
+if 'PHP' in lenguajes:
+    print('PHP si existe')
+else:
+    print('No no esta en la lista')
+    
+    
+#if anidados
+usuario_autenticado = False
+usuario_admin = False
+
+if usuario_autenticado:
+    if usuario_admin:
+        print('ACCESO TOTAL')
+    else:
+        print('Acceso al sistema')
+else:
+    print('Debes iniciar sesion')
