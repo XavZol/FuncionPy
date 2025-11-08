@@ -1,13 +1,12 @@
-#Ejemplo con elif
-ocupacion = 'Desempleado'
+#operadores and y or
 
+usuario_logueado= True
+usuario_admin= True
 
-if ocupacion == 'Estudiante':
-    print('Tienes 50% de Descuento')
-elif ocupacion == 'Jubilado':
-    print('Tienes 75% de Descuento')
-elif ocupacion == 'Desempleado':
-    print('Tienes 10% de Descuento')
-else: 
-    print('Debes pagar el 100%')
+if usuario_logueado and usuario_admin:
+    print('Administrador')
+elif usuario_logueado:
+    print('Acceso al sistema')
+else:
+    print('Debes iniciar sesion')
     
